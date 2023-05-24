@@ -3,9 +3,9 @@ from datetime import datetime
 
 class Change:
     def __init__(self, date='', from_whom='', to_whom=''):
-        self.date = date  # дата
-        self.from_whom = from_whom  # от кого
-        self.to_whom = to_whom  # кому
+        self.date = date
+        self.from_whom = from_whom
+        self.to_whom = to_whom
 
     def __repr__(self):
         return f'{self.__class__.__name__}\n' \
